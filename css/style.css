@@ -1,10 +1,45 @@
-/* ! utilitaries */
 
-
-/* ! structure body container */
 body {
-    background-color: #2f3848;
+    background-color: #9fa0a3;
     color: white;
     line-height: 2rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    width: 200vh;
+    margin: auto;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    margin: auto;
+    justify-content: center;
+}
+
+.container__section-gauche{
+    width: 30%;
+    margin: auto;
+}
+
+.container__section-centre{
+    width: 35%;
+    margin: auto;
+}
+
+.container__section-droite{
+    width: 35%;
+    margin: 10rem;
+}
+h1 {
+    text-align: center;
+    margin: 7%;
+    font-size: 8rem;
+    text-shadow: 0px 0px 30px #000000;
+}
+
+p {
+    text-align: center;
+    font-size: 1.7rem;
+}
