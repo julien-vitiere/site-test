@@ -20,7 +20,7 @@ body {
 .main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 25rem 0rem;
+    margin: 7rem 0rem;
     justify-content: center;
 
 
@@ -89,7 +89,7 @@ img{
 
 form {display: flex;
     position: relative;
-    margin: auto 50%;
+    margin: auto 45%;
 }
 
 .styled:hover {
